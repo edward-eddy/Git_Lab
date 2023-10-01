@@ -7,6 +7,7 @@ import { EdwardComponent } from './edward/edward.component';
 import { BranchEdwardComponent } from './branch-edward/branch-edward.component';
 import { SaraNavbarComponent } from './sara-navbar/sara-navbar.component';
 import { CartComponent } from './Component/cart/cart.component';
+import { SamuelComponent } from './Components/samuel/samuel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CartComponent } from './Component/cart/cart.component';
     EdwardComponent,
     BranchEdwardComponent,
     SaraNavbarComponent,
-    CartComponent
+    CartComponent,
+    SamuelComponent
   ],
   imports: [
     BrowserModule,
