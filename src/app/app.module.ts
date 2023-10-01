@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EdwardComponent } from './edward/edward.component';
 import { BranchEdwardComponent } from './branch-edward/branch-edward.component';
 import { SaraNavbarComponent } from './sara-navbar/sara-navbar.component';
+import { CartComponent } from './Component/cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EdwardComponent,
     BranchEdwardComponent,
-    SaraNavbarComponent
+    SaraNavbarComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
