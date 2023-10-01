@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EdwardComponent } from './edward/edward.component';
 import { BranchEdwardComponent } from './branch-edward/branch-edward.component';
+import { SaraNavbarComponent } from './sara-navbar/sara-navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EdwardComponent,
-    BranchEdwardComponent
+    BranchEdwardComponent,
+    SaraNavbarComponent
   ],
   imports: [
     BrowserModule,
